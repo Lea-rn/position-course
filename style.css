@@ -1,0 +1,48 @@
+
+body {
+    background-color: rgb(251, 245, 245);
+    color: rgb(13, 13, 13);
+    min-height: 1500px;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* ///// position relative (yet7arek par rapport blasstou loula w blasstou mayekhdhehelou had) */
+/* .pos {
+  position: relative;
+top: 50px;
+left : 200px
+  
+} */
+
+/* /////  position fixed (yet7arek par rapport lahdoud mte3 le browser w blasstou ifoukouhelou) */
+
+/* .pos {
+    color: red;
+    position: fixed;
+    top: 100px;
+    right: 0px;
+} */
+
+/* //// position sticky ::  */
+
+.pos {
+    position: sticky;
+    color: red;
+    top : 20px
+
+}
+
+/* //// position absolute ::  */
+div {
+    border: solid ;
+}
+
+h1 {
+    position: absolute;
+    bottom: 100px;
+}
+
+img {
+    opacity: 0.5;
+}
